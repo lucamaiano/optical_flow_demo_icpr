@@ -1,0 +1,326 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+.full-ht {
+    height: 100%;
+}
+
+.cmmn:active{
+    background-color: green !important;
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+    border-color: #89040b !important;
+}
+
+.btn-primary:active {
+     /* background-color: green !important; */
+}
+
+.cmmn-right {
+    border-radius: 0px 8px 8px 0px;
+    border: 1px solid #89040b;
+}
+
+.cmmn-left {
+    border-radius: 8px 0px 0px 8px;
+    border: 1px solid #89040b;
+}
+
+.red-text {
+    color: #000000 !important;
+}
+
+.cmmn-left:hover {
+    border-color:  #89040b !important;
+}
+
+.cmmn-right:hover {
+    border-color:  #89040b !important;
+}
+
+.btn-active {
+    background-color: #89040b !important;
+    color: #FFFFFF !important;
+}
+
+.btn-unactive {
+    background-color: #FFFFFF !important;
+    color: #000000 !important;
+}
+
+.button-row {
+    margin: 20px;
+    margin-bottom: 0px;
+}
+
+nav.red {
+    background-color: #89040b !important;
+}
+
+#preview {
+    height: 100px;
+
+}
+
+.cont-center{
+    align-content: center;
+}
+
+.pippo {
+    border: 1px solid red;
+    height: 100%;
+}
+
+.prim-color {
+    background-color: #89040b;
+}
+
+h2.tx-align-center {
+    text-align: center;
+    padding: 15px;
+}
+
+.upload-photo {
+    font-size: 0px;
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.label-drop{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    text-align: center;
+}
+
+.mt40{
+    margin-top: 30px !important;
+}
+
+.click{
+    cursor: pointer;
+}
+
+.gray {
+    color:#9a9a9a;
+    margin: 0px;
+    font-weight: bold;
+}
+
+.img-sty {
+    height: 25px;
+    width: 25px;
+}
+
+.logo-sty {
+    height: 45px;
+    width: 60px;
+}
+
+.content-center {
+    align-content: center;
+    height: 100%;
+}
+
+.tx-align-center {
+    text-align: center;
+}
+
+.inside-da {
+    margin: 30px;
+}
+
+.item-center {
+    display: flex;
+    justify-content: center;
+}
+
+#drop-area {
+    border: 2px dashed #9a9a9a;
+    border-radius: 20px;
+    background-color: #edecec;
+    font-family: sans-serif;
+    padding: 20px;
+    height: 250px;
+  }
+
+  #drop-area.highlight {
+    border-color: purple;
+  }
+
+.m10-left {
+    margin-left: 10px;
+}
+
+#loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+.no-padding{
+    padding: 0px !important;
+}
+
+.result {
+    display: flex;
+}
+
+.result-button {
+    float: right;
+}
+
+#loading {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: block;
+    opacity: 0.7;
+    background-color: #fff;
+    z-index: 99;
+    text-align: center;
+ }
+ 
+ #loading-image {
+   position: absolute;
+   top: 100px;
+   left: 240px;
+   z-index: 100;
+ }
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.3);
+}
+
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+}
+
+@-webkit-keyframes animatetop {
+    from {top:-300px ; opacity:0}
+    to {top:0 ; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px ; opacity:0}
+    to {top:0 ; opacity:1}
+}
+
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+ .close:hover,
+ .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+ }
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #89040b;
+    color: white;
+}
+
+.p10{
+    margin-top:5px;
+    margin-bottom: 5px
+}
+
+
+.modal-body {
+    padding: 2px 16px;
+}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #89040b;
+    color: white;
+}
+
+.general{
+    margin: 10px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+
+}
+
+.img-title{
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.img-dim{
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
